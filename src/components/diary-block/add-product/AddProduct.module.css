@@ -1,0 +1,131 @@
+.search {
+  display: block;
+  padding: 0 20px;
+}
+
+.searchSelect {
+  width: 100%;
+  margin-right: 20px;
+  margin-top: 4px;
+}
+
+.searchInput {
+  margin-right: 0;
+}
+
+.searchInput input[type="text"] {
+  width: 100%;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 16px;
+  outline: none;
+}
+
+.searchBtn {
+  text-align: center;
+}
+
+.searchBtn button {
+  margin: 30px auto;
+  height: 42px;
+  width: 176px;
+  border-radius: 18px;
+  background-color: rgb(252, 150, 78);
+  box-shadow: 0px 6px 10px 0px rgba(252, 132, 44, 0.33);
+  outline: none;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.searchBtn button:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.asyncSelect div:first-child {
+  border: none;
+  outline: none !important;
+}
+/* 
+.form {
+  display: none;
+} */
+
+.addBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 20px;
+  height: 20px;
+  outline: none;
+  background-image: url("../../../images/icons/delete/baseline-clear-black-24/1x/baseline_clear_black_24dp.png");
+  background-size: contain;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .errorNotification {
+    color: red;
+    position: absolute;
+    font-size: 0.8rem;
+    top: 230px;
+    left: 72px;
+  }
+  .search {
+    display: flex;
+    width: 500px;
+    height: 70px;
+    padding: 0;
+  }
+
+  .searchSelect {
+    margin-right: 20px;
+    margin-top: 4px;
+  }
+
+  .searchInput {
+    margin-right: 20px;
+  }
+
+  .searchInput input[type="text"] {
+    width: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .searchBtn button {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(252, 132, 44);
+    box-shadow: 0px 6px 10px 0px rgba(252, 132, 44, 0.33);
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 0px;
+    outline: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .errorNotification {
+    top: 258px;
+    left: 60px;
+  }
+}

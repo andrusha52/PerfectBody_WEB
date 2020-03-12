@@ -1,0 +1,59 @@
+.homePageWrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.homePageHeader {
+  width: 320px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.homePageBody {
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+@media (min-width: 768px) {
+  .homePageWrapper {
+    height: 90vh;
+    background-image: url(../../images/img/background_tablet.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+
+  .homePageHeader {
+    width: 660px;
+    margin: 0 auto;
+    margin-bottom: 56px;
+  }
+  .homePageBody {
+    width: 560px;
+    margin-left: 90px;
+    padding-top: 56px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .homePageWrapper {
+    padding-bottom: 110px;
+    background-image: url(../../images/img/background_desktop.png);
+    background-size: contain;
+  }
+
+  .homePageHeader {
+    width: 550px;
+    margin: 0;
+    margin-left: 92px;
+    margin-bottom: 72px;
+    /* padding-top: 86px; */
+  }
+
+  .homePageBody {
+    width: 620px;
+    margin: 0;
+    margin-left: 116px;
+    padding-top: 90px;
+  }
+}

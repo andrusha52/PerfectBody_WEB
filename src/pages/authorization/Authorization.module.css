@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pageContainer {
+    padding: 36px 24px 0;
+    min-height: 90vh;
+}
+
+@media(min-width: 768px) {
+    .pageWrapper {
+        background-image: url(../../images/img/background_tablet.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+    }
+
+    .pageContainer {
+        max-width: 76.6%;
+        padding: 142px 0 0;
+        margin: 0 auto;
+    }
+
+}
+
+@media(min-width: 1280px) {
+    .pageWrapper {
+        background-image: url(../../images/img/background_desktop.png);
+        background-size: contain;
+    }
+
+    .pageContainer {
+        max-width: 82%;
+        padding: 20vh 0 0;
+    }
+}

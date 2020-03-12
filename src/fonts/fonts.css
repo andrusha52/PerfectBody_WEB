@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Gotham-Pro";
+  font-style: light;
+  font-weight: 300;
+  src: local("Gotham Pro Light"), local("Gotham Pro Light"),
+    url("./Gotham-Pro/gotham\ pro\ light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Gotham-Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Gotham Pro Bold"), local("Gotham Pro Bold"),
+    url("./Gotham-Pro/gotham\ pro\ bold.otf") format("otf");
+}
+
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("./Playfair_Display/PlayfairDisplay-Regular.ttf") format("ttf"); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* playfair-display-700 - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("./Playfair_Display/PlayfairDisplay-Bold.ttf") format("ttf"); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* playfair-display-900 - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""),
+    url("./Playfair_Display/PlayfairDisplay-Black.ttf") format("ttf"); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* playfair-display-italic - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 400;
+  src: local(""),
+    url("./Playfair_Display/PlayfairDisplay-Italic.ttf") format("ttf"); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* playfair-display-700italic - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 700;
+  src: local(""),
+    url("./Playfair_Display/PlayfairDisplay-BoldItalic.ttf") format("ttf"); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* playfair-display-900italic - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 900;
+  src: local(""),
+    url("./Playfair_Display/PlayfairDisplay-BlackItalic.ttf") format("ttf"); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}

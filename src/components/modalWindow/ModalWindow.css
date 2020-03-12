@@ -1,0 +1,159 @@
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 10000;
+}
+
+/* width*/
+.modalWindow::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Handle */
+.modalWindow::-webkit-scrollbar-thumb {
+  background-color: rgb(40, 64, 96);
+}
+
+.modalWindow {
+  position: relative;
+  font-family: "Verdana";
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  padding: 48px 0px 38px 0px;
+  z-index: 1;
+}
+
+.modalHeader,
+.modalBody,
+.modalFooter {
+  width: 274px;
+  margin: 0 auto;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 20px;
+  height: 20px;
+  outline: none;
+  background-image: url("../../images/icons/delete/baseline-clear-black-24/1x/baseline_clear_black_24dp.png");
+  background-size: contain;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.title {
+  font-size: 21px;
+  color: rgb(33, 33, 33);
+  font-weight: bold;
+  line-height: 1.38;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.resultText {
+  position: relative;
+  font-size: 48px;
+  color: rgb(40, 64, 96);
+  font-weight: bold;
+  line-height: 0.78;
+  text-align: center;
+  border-bottom: 1.5px solid #999daa;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.resultUnits {
+  font-size: 18px;
+  line-height: 2.08;
+}
+
+.productDescription {
+  font-size: 15px;
+  font-family: "Verdana";
+  color: rgb(33, 33, 33);
+  font-weight: bold;
+  line-height: 1.53;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.list {
+  font-size: 15px;
+  color: rgb(153, 157, 170);
+  line-height: 2;
+  text-align: left;
+  list-style: decimal;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.startLoosingWeight {
+  display: block;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.86;
+  padding: 10px 30px;
+  outline: none;
+  border-radius: 50px;
+  background-color: rgb(252, 132, 44);
+  box-shadow: 0px 6px 10px 0px rgba(252, 132, 44, 0.6);
+  margin: 0 auto;
+  transition: 0.5s;
+}
+.startLoosingWeight:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+  .modalWindow {
+    width: 624px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 43px 0px rgba(0, 0, 0, 0.4);
+    padding: 30px 0;
+    overflow: hidden;
+  }
+
+  .modalHeader {
+    width: 478px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+  }
+
+  .modalBody {
+    width: 295px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+  }
+
+  .title {
+    font-size: 26px;
+    text-align: center;
+  }
+  .resultText {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modalWindow {
+    width: 726px;
+    padding: 16px 0px 30px 0px;
+  }
+}

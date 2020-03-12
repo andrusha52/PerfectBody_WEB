@@ -1,0 +1,106 @@
+.sectionSummary {
+  background-image: url(../../images/img/backgroundSummary.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding: 44px 20px 50px 20px;
+}
+.blockSummary {
+  font-family: "Gotham Pro", sans-serif;
+}
+.title {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.listProgress {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.progressItem {
+  display: flex;
+  justify-content: space-between;
+}
+.progressItem > span {
+  display: block;
+  color: #999daa;
+  line-height: 30px;
+  font-size: 15px;
+}
+.products {
+  color: #999daa;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .sectionSummary {
+    background-image: url(../../images/img/backgroundSummary.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+  }
+  .blockSummary {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .blockProgres {
+    width: 255px;
+    margin-right: 62px;
+  }
+  .listProgress {
+    margin: 0;
+  }
+  .title {
+    margin-bottom: 36px;
+  }
+  .blockProducts {
+    width: 280px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sectionSummary {
+    background-image: url(../../images/img/backGroundSummaryLap.jpg);
+    background-position-x: 100%;
+    background-size: 150%;
+    height: 90vh;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 0px 0px;
+  }
+  .blockSummary {
+    margin: 0;
+    width: auto;
+    flex-direction: column;
+  }
+  .blockProgres {
+    margin-bottom: 80px;
+  }
+  .loginBox {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 142px;
+  }
+  .blabla {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+  }
+  .userName {
+    padding-right: 5px;
+    margin-right: 5px;
+    display: block;
+    border-right: 2px solid #999daa;
+  }
+  .linkRegister {
+    display: block;
+  }
+}

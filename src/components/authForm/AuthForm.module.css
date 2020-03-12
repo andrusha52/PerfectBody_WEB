@@ -1,0 +1,138 @@
+.form {
+    position: relative;
+    font-family: "Verdana", "Geneva", "Tahoma", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.8125rem;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.form input {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Verdana", "Geneva", "Tahoma", sans-serif;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 1.2;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #999daa;
+    width: 100%;
+    height: 3.125rem;
+    outline: none;
+    padding-left: 4px;
+    margin-bottom: 20px;
+}
+
+.form input:nth-child(2n-1) {
+    margin-bottom: 66px;
+}
+
+.navWrapper {
+    margin-bottom: 50px;
+}
+
+.entryBtn,
+.entrySpan {
+    font-family: "GothamPro", "Verdana", "Geneva", "Tahoma", sans-serif;
+    font-weight: bold;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: #999daa;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fc832c00;
+    padding-bottom: 4px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.entryBtn {
+    display: inline-block;
+}
+
+.entryBtn:hover,
+.entryBtn:focus {
+    transform: scale(1.05);
+}
+
+.submitBtn {
+    font-family: "Verdana", "Geneva", "Tahoma", sans-serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+    background-color: #fc842c;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    line-height: 1.857;
+    width: 176px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+}
+
+.submitBtn:hover,
+.submitBtn:focus {
+    filter: drop-shadow(0px 6px 5px rgba(252, 132, 44, 0.33));
+    transform: scale(1.1);
+}
+
+.errorNotification {
+    color: red;
+    position: absolute;
+    font-size: 0.625rem;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 24%;
+}
+
+@media(min-width: 768px) {
+    .form {
+        text-align: start;
+        max-width: 58.2%;
+        padding: 20px 0;
+    }
+
+    .form input {
+        font-size: 0.9375rem;
+        line-height: 1.2;
+        text-align: start;
+    }
+
+    .entryBtn {
+        font-size: 0.8125rem;
+    }
+
+    .submitBtn {
+        max-width: 68%;
+    }
+
+    .errorNotification {
+        transform: translateX(0);
+        left: 4px;
+        bottom: 24%;
+    }
+}
+
+@media(min-width: 1280px) {
+    .form {
+        max-width: 33%
+    }
+
+    .form input {
+        height: 50px;
+    }
+
+    .entryBtn {
+        font-family: "Gotham Pro", "Verdana", "Geneva", "Tahoma", sans-serif;
+    }
+
+    .submitBtn {
+        width: 50.7%;
+        font-size: 0.9375rem;
+    }
+}

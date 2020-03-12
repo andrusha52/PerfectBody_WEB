@@ -1,0 +1,17 @@
+.modal {
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 0;
+  right: 16px;
+  width: 20px;
+  height: 20px;
+  outline: none;
+  background-image: url("../../../images/icons/delete/baseline-clear-black-24/1x/baseline_clear_black_24dp.png");
+  background-size: contain;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
